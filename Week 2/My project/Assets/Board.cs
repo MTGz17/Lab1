@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {   
-
     IEnumerable<Vector3> GridPoints()
     {
         for(int x = -4; x < 4; x++)
